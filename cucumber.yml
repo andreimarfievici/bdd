@@ -1,0 +1,1 @@
+with_reporting: --format pretty --format junit --out reports --format html --out html/report.html
