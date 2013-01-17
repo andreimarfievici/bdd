@@ -4,7 +4,7 @@ require 'rspec'
 require 'watir-webdriver/wait'
 require 'net/http'
 require 'uri'
-ENV['env'] = 'chr'
+
 case ENV['env'].downcase
   when 'chrome', 'chr'
     browser = Watir::Browser.new :chrome
